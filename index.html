@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text Analyzer</title>
+  <link rel="stylesheet" href="asset/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <span>Text Analyzer</span>
+      </div>
+    </header>
+
+    <main>
+      <h1>Check your text<br>instantly.</h1>
+
+      <textarea placeholder="Start typing here... (visual only, no counting)"></textarea>
+
+      <div class="options">
+        <label><input type="checkbox" disabled /> Exclude Spaces</label>
+        <label><input type="checkbox" disabled /> Set Character Limit</label>
+      </div>
+
+      <div class="stats">
+        <div class="box purple">
+          <div class="num">00</div>
+          <div class="label">Characters</div>
+        </div>
+        <div class="box green">
+          <div class="num">00</div>
+          <div class="label">Words</div>
+        </div>
+        <div class="box blue">
+          <div class="num">00</div>
+          <div class="label">Sentences</div>
+        </div>
+      </div>
+
+      <p class="info">Letter Density: <em>Type something to see letter density.</em></p>
+      <p class="info">Approx. reading time: 0 minute</p>
+    </main>
+  </div>
+</body>
+</html>
